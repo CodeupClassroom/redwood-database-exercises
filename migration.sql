@@ -3,6 +3,7 @@ USE codeup_test_db;
 DROP TABLE IF EXISTS employees;
 DROP TABLE IF EXISTS quotes;
 
+
 CREATE TABLE employees (
   id                     INT UNSIGNED            NOT NULL AUTO_INCREMENT,
   name                   VARCHAR(150)            NOT NULL,
@@ -24,3 +25,4 @@ CREATE TABLE quotes (
   content           TEXT         NOT NULL,
   PRIMARY KEY (id)
 );
+
