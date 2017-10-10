@@ -1,11 +1,17 @@
+USE codeup_test_db;
+
+DROP TABLE IF EXISTS employees;
+
 CREATE TABLE employees (
-  name                   VARCHAR(150),
-  addreess               VARCHAR(300),
-  age                    TINYINT UNSIGNED,
+  id                     INT UNSIGNED            NOT NULL AUTO_INCREMENT,
+  name                   VARCHAR(150)            NOT NULL,
+  address                VARCHAR(300)            NOT NULL,
+  age                    TINYINT UNSIGNED                 DEFAULT 0,
   job_description        TEXT,
   birthday               DATE,
-  salary                 DECIMAL(10, 2) UNSIGNED,
-  social_security_number CHAR(11),
-  is_full_time           BOOLEAN,
-  created_at             DATETIME
+  salary                 DECIMAL(10, 2) UNSIGNED NOT NULL,
+  social_security_number CHAR(11)                NOT NULL,
+  is_full_time           BOOLEAN                 NOT NULL,
+  created_at             DATETIME                NOT NULL,
+  PRIMARY KEY (id)
 );
