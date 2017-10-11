@@ -1,3 +1,5 @@
+Use codeup_test_db;
+
 INSERT INTO albums (`artist`,`name`,`release_date`,`sales`,`genre`) VALUES('Michael Jackson','Thriller',1982,46,'Pop, rock, R&B');
 INSERT INTO albums (`artist`,`name`,`release_date`,`sales`,`genre`) VALUES('AC/DC','Back in Black',1980,26.1,'Hard rock');
 INSERT INTO albums (`artist`,`name`,`release_date`,`sales`,`genre`) VALUES('Pink Floyd','The Dark Side of the Moon',1973,24.2,'Progressive rock');
@@ -11,12 +13,12 @@ INSERT INTO albums (`artist`,`name`,`release_date`,`sales`,`genre`) VALUES('Led 
 INSERT INTO albums (`artist`,`name`,`release_date`,`sales`,`genre`) VALUES('Michael Jackson','Bad',1987,20.3,'Pop, funk, rock');
 INSERT INTO albums (`artist`,`name`,`release_date`,`sales`,`genre`) VALUES('Alanis Morissette','Jagged Little Pill',1995,24.8,'Alternative rock');
 INSERT INTO albums (`artist`,`name`,`release_date`,`sales`,`genre`) VALUES('Celine Dion','Falling into You',1996,20.2,'Pop, Soft rock');
-INSERT INTO albums (`artist`,`name`,`release_date`,`sales`,`genre`) VALUES('The Beatles','Sgt. Peppers Lonely Hearts Club Band',1967,13.1,'Rock');
+INSERT INTO albums (`artist`,`name`,`release_date`,`sales`,`genre`) VALUES('The Beatles','Sgt. Pepper''s Lonely Hearts Club Band',1967,13.1,'Rock');
 INSERT INTO albums (`artist`,`name`,`release_date`,`sales`,`genre`) VALUES('Eagles','Hotel California',1976,21.5,'Rock, soft rock, folk rock');
 INSERT INTO albums (`artist`,`name`,`release_date`,`sales`,`genre`) VALUES('Mariah Carey','Music Box',1993,19,'Pop, R&B, Rock');
 INSERT INTO albums (`artist`,`name`,`release_date`,`sales`,`genre`) VALUES('Michael Jackson','Dangerous',1991,17.6,'Rock, Funk, Pop');
 INSERT INTO albums (`artist`,`name`,`release_date`,`sales`,`genre`) VALUES('Various artists','Dirty Dancing',1987,17.9,'Pop, rock, R&B');
-INSERT INTO albums (`artist`,`name`,`release_date`,`sales`,`genre`) VALUES('Celine Dion','Lets Talk About Love',1997,19.3,'Pop, Soft rock');
+INSERT INTO albums (`artist`,`name`,`release_date`,`sales`,`genre`) VALUES('Celine Dion','Let''s Talk About Love',1997,19.3,'Pop, Soft rock');
 INSERT INTO albums (`artist`,`name`,`release_date`,`sales`,`genre`) VALUES('The Beatles','1',2000,21.6,'Rock');
 INSERT INTO albums (`artist`,`name`,`release_date`,`sales`,`genre`) VALUES('Adele','21',2011,22.3,'Pop, soul');
 INSERT INTO albums (`artist`,`name`,`release_date`,`sales`,`genre`) VALUES('The Beatles','Abbey Road',1969,14.4,'Rock');
@@ -28,4 +30,4 @@ INSERT INTO albums (`artist`,`name`,`release_date`,`sales`,`genre`) VALUES('Meta
 INSERT INTO albums (`artist`,`name`,`release_date`,`sales`,`genre`) VALUES('Nirvana','Nevermind',1991,16.7,'Grunge, alternative rock');
 INSERT INTO albums (`artist`,`name`,`release_date`,`sales`,`genre`) VALUES('Pink Floyd','The Wall',1979,17.6,'Progressive rock');
 INSERT INTO albums (`artist`,`name`,`release_date`,`sales`,`genre`) VALUES('Santana','Supernatural',1999,20.5,'Rock');
-INSERT INTO albums (`artist`,`name`,`release_date`,`sales`,`genre`) VALUES('Guns N Roses','Appetite for Destruction',1987,21.3,'Heavy metal, hard rock');
+INSERT INTO albums (`artist`,`name`,`release_date`,`sales`,`genre`) VALUES('Guns N'' Roses','Appetite for Destruction',1987,21.3,'Heavy metal, hard rock');
